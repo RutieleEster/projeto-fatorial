@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Fatorial - Rutiele Ester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Cálculo de Fatorial</h1>
+        <p>Insira um número de 0 a 20:</p>
+
+        <input type="number" id="campoNumero" placeholder="0-20">
+        <br>
+        <button class="btn-acao" onclick="executarFatorial()">Calcular</button>
+
+        <div id="caixaResultado" class="escondido">
+            <span id="valorFinal"></span>
+        </div>
+
+        <button class="btn-limpar" onclick="limparTela()">Limpar Tudo</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
