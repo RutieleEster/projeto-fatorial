@@ -1,69 +1,54 @@
 body {
     background-color: Lavender;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding-top: 100px; 
 }
 
-.caixa-principal {
-    width: 280px;
+.container {
+    width: 260px;
     margin: 0 auto; 
     background-color: White;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid Indigo;
     border-radius: 8px;
     text-align: center;
 }
 
-h1 {
-    color: Indigo;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+h1 { color: Indigo; font-size: 18px; }
 
 input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
     border: 1px solid Plum;
     border-radius: 4px;
-    box-sizing: border-box; 
 }
 
-#btnCalcular {
-    width: 100%;
-    padding: 12px;
+button {
+    width: 95%;
+    padding: 10px;
     background-color: Indigo;
     color: White;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
 }
 
-#btnCalcular:hover {
-    background-color: DarkMagenta;
-}
+.hidden { display: none; }
 
-.link-limpar {
-    margin-top: 20px;
-    background: none;
-    border: none;
-    color: DarkSlateBlue;
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 13px;
-}
-
-.invisivel {
-    display: none;
-}
-
-#painelResultado {
-    margin-top: 20px;
-    padding: 15px;
+#resultado {
+    margin-top: 15px;
+    padding: 10px;
     background-color: Thistle;
     color: Indigo;
     font-weight: bold;
-    border-radius: 4px;
+}
+
+.btn-limpar {
+    margin-top: 10px;
+    background: none;
+    color: DarkSlateBlue;
+    text-decoration: underline;
+    font-size: 12px;
 }
