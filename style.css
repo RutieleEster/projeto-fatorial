@@ -1,84 +1,69 @@
-.container {
-    max-width: 320px; 
-    margin: 80px auto;
+body {
+    background-color: Lavender;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 100px; 
+}
+
+.caixa-principal {
+    width: 280px;
+    margin: 0 auto; 
+    background-color: White;
+    padding: 30px;
+    border: 1px solid Indigo;
+    border-radius: 8px;
     text-align: center;
-    font-family: Arial, sans-serif;
-    padding: 25px;
-    border: 1px solid Lavender; 
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 04px 10px; 
 }
 
 h1 {
-    font-size: 24px;
-    color: Indigo; 
-    margin-bottom: 5px;
-}
-
-p {
-    font-size: 14px;
-    color: DarkOrchid;
-    margin-bottom: 20px;
-}
-
-.campo {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
     color: Indigo;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid Thistle;
-    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid Plum;
+    border-radius: 4px;
     box-sizing: border-box; 
-    text-align: center;
-    font-size: 16px;
 }
 
 #btnCalcular {
     width: 100%;
     padding: 12px;
     background-color: Indigo;
-    color: white;
+    color: White;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 16px;
 }
 
 #btnCalcular:hover {
     background-color: DarkMagenta;
 }
 
-.btn-limpar {
-    margin-top: 15px;
+.link-limpar {
+    margin-top: 20px;
     background: none;
-    color: DarkSlateBlue;
     border: none;
+    color: DarkSlateBlue;
     text-decoration: underline;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-.hidden {
+.invisivel {
     display: none;
 }
 
-#resultado {
+#painelResultado {
     margin-top: 20px;
     padding: 15px;
-    background-color: Thistle; 
-    border-radius: 8px;
+    background-color: Thistle;
     color: Indigo;
     font-weight: bold;
+    border-radius: 4px;
 }
