@@ -1,0 +1,84 @@
+.container {
+    max-width: 320px; 
+    margin: 80px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 25px;
+    border: 1px solid Lavender; 
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 04px 10px; 
+}
+
+h1 {
+    font-size: 24px;
+    color: Indigo; 
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: DarkOrchid;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: Indigo;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid Thistle;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    text-align: center;
+    font-size: 16px;
+}
+
+#btnCalcular {
+    width: 100%;
+    padding: 12px;
+    background-color: Indigo;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#btnCalcular:hover {
+    background-color: DarkMagenta;
+}
+
+.btn-limpar {
+    margin-top: 15px;
+    background: none;
+    color: DarkSlateBlue;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: Thistle; 
+    border-radius: 8px;
+    color: Indigo;
+    font-weight: bold;
+}
